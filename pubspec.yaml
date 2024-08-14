@@ -1,0 +1,26 @@
+name: test_pc
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  firebase_auth: ^4.16.0
+  firebase_core: ^2.24.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  get_it: ^7.7.0
+  go_router: ^14.2.3
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
